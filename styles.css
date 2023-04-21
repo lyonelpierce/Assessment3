@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.img-profile {
+  border-radius: 300px;
+  max-width: 300px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid;
+  background-color: #fec100;
+  color: #000;
+  border-color: #000;
+  margin-bottom: 10px;
+  width: 25vw;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #fec10000;
+  color: #000;
+}
+
+video {
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.random {
+  background-color: #fec100;
+  border-radius: 25px;
+  padding: 15px;
+  border: 2px solid #000;
+  display: none;
+}
